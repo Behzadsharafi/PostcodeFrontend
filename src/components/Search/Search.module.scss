@@ -1,0 +1,16 @@
+@use "../../partials/palette.scss";
+
+.form {
+  display: flex;
+  gap: 3px;
+  width: 100%;
+
+  & input {
+    width: fit-content;
+    min-width: 300px;
+  }
+
+  &__button {
+    padding: 2px 5px;
+  }
+}
