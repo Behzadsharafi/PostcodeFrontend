@@ -22,6 +22,7 @@ const SuburbList = ({ searchTerm }: Props) => {
   const [deleteErrorMess, setDeleteErrorMess] = useState("");
 
   useEffect(() => {
+    // To seed the database run the following line once
     // dbSeeder.forEach((suburb) => createSuburb(suburb));
     setErrorMess(errorMess ? "" : errorMess);
 
@@ -81,7 +82,7 @@ const SuburbList = ({ searchTerm }: Props) => {
 
       // Revert the UI back to its previous state using the saved constant
       setSuburbs(currentSuburbs);
-    } finally {
+      alert("There was a problem in the server. Could not delete.");
     }
   };
 

@@ -81,9 +81,7 @@ export const updateSuburbById = async (
   });
 
   if (!response.ok) {
-    const errorData = await response.json();
-
-    throw new Error(errorData.postcode);
+    throw new Error(`Could not update suburb ${id}`);
   }
 };
 
@@ -91,9 +89,7 @@ export const getSuburbsByPostcode = async (
   postcode: Suburb["postcode"]
 ): Promise<Suburb[]> => {
   //// fetch data
-  const response = await fetch(
-    `${hostDomain}suburb/find-suburb-by-${postcode}`
-  );
+  const response = await fetch(`${hostDomain}suburb/getSuburb${postcode}`);
 
   if (!response.ok) {
     throw new Error("Could not get suburbs");
@@ -108,9 +104,7 @@ export const getPostcodeBySuburb = async (
   suburb: Suburb["name"]
 ): Promise<Suburb[]> => {
   //// fetch data
-  const response = await fetch(
-    `${hostDomain}postcode/find-postcode-by-${suburb}`
-  );
+  const response = await fetch(`${hostDomain}postcode/getPostcode${suburb}`);
 
   if (!response.ok) {
     throw new Error("Could not get postcode");

@@ -7,13 +7,14 @@ export const schema = yup.object({
     .number()
     .required("Population is required")
     .positive("Population must be positive")
-    .min(1)
+    .min(1000)
     .integer("Population must be an integer"),
   postcode: yup
     .number()
     .required("Postcode is required")
     .positive("Postcode must be positive")
-    .min(1)
+    .min(1000)
+    .max(9999)
     .integer("Postcode must be an integer"),
 });
 
