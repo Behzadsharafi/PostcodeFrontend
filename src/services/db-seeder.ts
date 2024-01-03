@@ -54,4 +54,45 @@ export const dbSeeder = [
     population: 50000,
     postcode: 2066,
   },
+  {
+    name: "Wollongong",
+    population: 290000,
+    postcode: 2500,
+  },
+  {
+    name: "Geelong",
+    population: 220000,
+    postcode: 3220,
+  },
+  {
+    name: "Hobart",
+    population: 22000,
+    postcode: 7000,
+  },
+  {
+    name: "Adelaide",
+    population: 1300000,
+    postcode: 5000,
+  },
+  {
+    name: "Brisbane",
+    population: 2400000,
+    postcode: 4000,
+  },
+  {
+    name: "Perth",
+    population: 2100000,
+    postcode: 6000,
+  },
+
+  {
+    name: "Canberra",
+    population: 430000,
+    postcode: 2600,
+  },
+  {
+    name: "Gold Coast",
+    population: 670000,
+    postcode: 4217,
+  },
 ];
