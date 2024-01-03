@@ -76,7 +76,7 @@
   npm run dev
 ```
 
-To seed the database you can open SuburbList.jsx and comment in the line below, and save the file.
+- To seed the database you can open SuburbList.jsx and comment in the line below, and save the file.
 
 ```jsx
 // dbSeeder.forEach((suburb) => createSuburb(suburb));
