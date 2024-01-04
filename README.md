@@ -99,6 +99,7 @@ Please read the [Code of Conduct](https://github.com/Behzadsharafi/PostcodeFront
 - [React](https://react.dev/): frontend
 - [TypeScripttypescript](https://www.typescriptlang.org/): frontend
 - [SASS](https://sass-lang.com/): styling
+- [Vitest](https://vitest.dev/): frontend testing
 - [MySQL](https://www.mysql.com/): database
 - [Java](https://www.java.com/en/): backend
 - [Spring](https://spring.io/): backend
