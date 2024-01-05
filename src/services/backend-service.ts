@@ -3,7 +3,6 @@ import {
   Suburb,
   UpdateSuburbDTO,
 } from "../scripts/interfaces";
-import myScripts from "../scripts/scripts";
 
 const hostDomain = `https://zadatabase.digital/`;
 // localhost = `http://localhost:8080/`

@@ -64,16 +64,6 @@ const SuburbForm: React.FC<SuburbFormProps> = ({ suburb }: SuburbFormProps) => {
     else {
       const toUpdateData: UpdateSuburbDTO = { ...formattedData };
 
-      for (const key in formattedData) {
-        const formKey = key as keyof FormData;
-        // if data is unchanged -> delete it from toUpdateData
-        if (suburb.hasOwnProperty(formKey)) {
-          const suburbKey: keyof Suburb = formKey;
-          const suburbValue = suburb[suburbKey];
-          const formattedValue = formattedData[formKey];
-        }
-      }
-
       try {
         // Suburbs.updateSuburb(suburb.id, toUpdateData);
         await updateSuburbById(suburb.id, toUpdateData);

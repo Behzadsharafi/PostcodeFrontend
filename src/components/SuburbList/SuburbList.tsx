@@ -1,15 +1,8 @@
 import { useEffect, useState } from "react";
 import styles from "./SuburbList.module.scss";
 import SuburbCard from "../SuburbCard/SuburbCard";
-import { dbSeeder } from "../../services/db-seeder";
 import { Suburb } from "../../scripts/interfaces";
-import {
-  createSuburb,
-  deleteSuburbById,
-  getAllSuburb,
-  getSuburbsByPostcode,
-} from "../../services/backend-service";
-import { number } from "yup";
+import { deleteSuburbById, getAllSuburb } from "../../services/backend-service";
 
 interface Props {
   searchTerm: any;
