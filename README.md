@@ -4,9 +4,9 @@
 <div align='center'>
 
 <h1> 📍 Postcode API 📬</h1>
-<p>This is the frontend of my <a href="https://github.com/Behzadsharafi/Postcodeapi" target="_blank"> Postcode API </a>. An API that allows users to retrieve and add suburb and postcode combinations. I utilized Spring and MySQL for the backend of this project. The frontend is written in ReactJS and TypeScript . </p>
+<p>This is the frontend of my <a href="https://github.com/Behzadsharafi/Postcodeapi" target="_blank"> Postcode API </a>. An API that allows users to retrieve and add suburb and postcode combinations. I utilized Spring and MySQL for the backend of this project. The frontend is written in ReactJS and TypeScript. </p>
 
-<h4><a href="https://postcodeapi.netlify.app/">View Live Site</a> <span> · <a href="https://github.com/Behzadsharafi/PostcodeFrontend/issues"> Report a Bug </a> <span> · </span> <a href="https://github.com/Behzadsharafi/PostcodeFrontend/issues"> Request a Feature </a> </h4>
+<h4><a href="https://postcodeapi.netlify.app/" target="_blank">View Live Site</a> <span> · <a href="https://github.com/Behzadsharafi/PostcodeFrontend/issues"> Report a Bug </a> <span> · </span> <a href="https://github.com/Behzadsharafi/PostcodeFrontend/issues"> Request a Feature </a> </h4>
 
 </div>
 
