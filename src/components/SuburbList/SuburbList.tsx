@@ -11,9 +11,7 @@ interface Props {
 const SuburbList = ({ searchTerm }: Props) => {
   const [suburbs, setSuburbs] = useState<any[] | null>(null);
   const [errorMess, setErrorMess] = useState("");
-
   const [deleteErrorMess, setDeleteErrorMess] = useState("");
-
   useEffect(() => {
     // To seed the database run the following line once
     // dbSeeder.forEach((suburb) => createSuburb(suburb));

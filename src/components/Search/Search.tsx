@@ -27,7 +27,7 @@ const Search = ({ handleSearch }: Props) => {
     <div className={styles.form}>
       <input
         type="text"
-        placeholder="Search for a Suburb or a Postcode"
+        placeholder="Search a Suburb or a Postcode"
         onChange={onSearchChange}
         value={searchTerm || ""}
       />

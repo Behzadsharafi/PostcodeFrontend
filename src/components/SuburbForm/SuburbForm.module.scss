@@ -1,4 +1,6 @@
-@use "../../partials/palette.scss";
+@use "../../partials/palette";
+@use "../../partials/mixins";
+@use "../../partials/breakpoints";
 
 .card {
   box-shadow: 2px 3px 11px 0px rgba(0, 0, 0, 0.6);

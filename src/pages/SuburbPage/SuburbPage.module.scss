@@ -1,3 +1,7 @@
+@use "../../partials/palette";
+@use "../../partials/mixins";
+@use "../../partials/breakpoints";
+
 .page {
   display: flex;
   flex-direction: column;
@@ -5,10 +9,23 @@
   gap: 10px;
   width: 100%;
 
+  @include mixins.phone_sm {
+    gap: 20px;
+  }
+
   &__topSection {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
     max-width: 800px;
+
+    @include mixins.phone_sm {
+      flex-direction: column;
+      gap: 10px;
+
+      &__button {
+        width: 150px;
+      }
+    }
   }
 }
